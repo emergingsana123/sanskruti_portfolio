@@ -1,0 +1,18 @@
+# Placeholder CV File
+
+This is a placeholder for Sanskruti Deshmukh's CV.
+Replace this file with the actual PDF CV.
+
+To add the real CV:
+1. Save the actual CV as 'Sanskruti_CV.pdf' in the src/assets folder
+2. The download link in the Hero component will automatically work
+
+The CV should include:
+- Contact Information
+- Education (MS Data Science - Stony Brook, B.Tech AI & Data Science - VIT Pune)
+- Experience (Airtel AI & CloudOps Intern, PowerZoom Microsoft Power Platform Intern)
+- Skills (Python, SQL, R, JavaScript, PyTorch, TensorFlow, etc.)
+- Projects (Rakshak, Semantic Video Summarizer, JuryNLP, CareerBoost)
+- Research Publications (IEEE papers)
+- Achievements (Hack-o-Hire Runner-up, Certifications)
+- Certifications (Coursera, IBM, Forage)
