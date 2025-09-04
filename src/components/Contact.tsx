@@ -88,10 +88,6 @@ const Contact = () => {
       <div className="container-custom">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="heading-section mb-4">Get In Touch</h2>
-          <p className="text-body max-w-2xl mx-auto">
-            I'm always interested in discussing new opportunities, research collaborations, 
-            or innovative projects in AI and data science.
-          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -108,12 +104,12 @@ const Contact = () => {
                     rel={info.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                     className="flex items-center gap-4 p-4 bg-card rounded-lg border border-border hover:bg-card-hover transition-colors group"
                   >
-                    <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
-                      <info.icon className="h-5 w-5 text-primary" />
+                    <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
+                      <info.icon className="h-6 w-6 text-primary" strokeWidth={2.5} />
                     </div>
                     <div>
-                      <p className="font-medium text-foreground">{info.label}</p>
-                      <p className="text-sm text-muted-foreground">{info.value}</p>
+                      <p className="font-semibold text-foreground">{info.label}</p>
+                      <p className="text-sm font-medium text-muted-foreground">{info.value}</p>
                     </div>
                   </a>
                 ))}

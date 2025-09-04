@@ -1,4 +1,4 @@
-import { Download, Mail, ExternalLink } from 'lucide-react';
+import { Download, ExternalLink, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import profileImage from '@/assets/profile.jpg';
@@ -7,18 +7,15 @@ const Hero = () => {
   const highlights = [
     {
       title: 'MS in Data Science',
-      subtitle: 'Stony Brook University',
-      icon: '🎓'
+      subtitle: 'Stony Brook University'
     },
     {
       title: 'AI & CloudOps Intern',
-      subtitle: 'Airtel | PowerZoom',
-      icon: '💼'
+      subtitle: 'Airtel | PowerZoom'
     },
     {
       title: 'Python & ML Expert',
-      subtitle: 'Data Analysis',
-      icon: '🔬'
+      subtitle: 'Data Analysis'
     }
   ];
 
@@ -36,10 +33,10 @@ const Hero = () => {
               <h1 className="heading-hero">
                 Sanskruti Deshmukh
               </h1>
-              <p className="text-xl md:text-2xl font-medium text-primary">
-                Software Developer • Data Scientist • AI Researcher
+              <p className="text-2xl md:text-3xl font-medium text-primary">
+                Software Developer - Data Scientist - AI Researcher
               </p>
-              <p className="text-lg text-muted-foreground font-light">
+              <p className="text-lg font-bold text-foreground">
                 @ Stony Brook University
               </p>
               <p className="text-xl text-body max-w-2xl mx-auto lg:mx-0">
@@ -62,14 +59,24 @@ const Hero = () => {
                 <ExternalLink className="mr-2 h-5 w-5" />
                 View Projects
               </Button>
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="btn-secondary"
-                onClick={() => scrollToSection('#contact')}
-              >
-                <Mail className="mr-2 h-5 w-5" />
-                Contact Me
+            </div>
+
+            {/* Social Links */}
+            <div className="flex gap-4 justify-center lg:justify-start items-center">
+              <Button size="lg" variant="outline" className="p-4 border-2 border-primary/40 hover:border-primary hover:bg-primary/10" asChild>
+                <a href="https://github.com/sanskruti" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <Github className="h-7 w-7 text-foreground hover:text-primary transition-colors" strokeWidth={2.8} />
+                </a>
+              </Button>
+              <Button size="lg" variant="outline" className="p-4 border-2 border-primary/40 hover:border-primary hover:bg-primary/10" asChild>
+                <a href="https://linkedin.com/in/sanskruti-deshmukh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <Linkedin className="h-7 w-7 text-foreground hover:text-primary transition-colors" strokeWidth={2.8} />
+                </a>
+              </Button>
+              <Button size="lg" variant="outline" className="p-4 border-2 border-primary/40 hover:border-primary hover:bg-primary/10" asChild>
+                <a href="mailto:sanskruti.deshmukh@stonybrook.edu" aria-label="Email">
+                  <Mail className="h-7 w-7 text-foreground hover:text-primary transition-colors" strokeWidth={2.8} />
+                </a>
               </Button>
             </div>
           </div>
@@ -77,7 +84,7 @@ const Hero = () => {
           {/* Profile Image & Highlights */}
           <div className="flex flex-col items-center space-y-8 animate-scale-in">
             {/* Profile Image */}
-            <div className="profile-image w-64 h-64 md:w-80 md:h-80">
+            <div className="profile-image w-48 h-48 md:w-56 md:h-56">
               <img
                 src={profileImage}
                 alt="Sanskruti Deshmukh - Professional portrait"
@@ -93,11 +100,10 @@ const Hero = () => {
                   className="card-professional text-center p-4 card-hover"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <div className="text-2xl mb-2">{highlight.icon}</div>
-                  <h3 className="font-semibold text-sm text-foreground mb-1">
+                  <h3 className="font-semibold text-lg text-foreground mb-2">
                     {highlight.title}
                   </h3>
-                  <p className="text-xs text-muted-foreground">
+                  <p className="text-sm text-muted-foreground">
                     {highlight.subtitle}
                   </p>
                 </Card>

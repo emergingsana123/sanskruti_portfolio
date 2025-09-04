@@ -58,10 +58,6 @@ const Experience = () => {
         <div className="container-custom">
           <div className="text-center mb-16 animate-fade-in-up">
             <h2 className="heading-section mb-4">Professional Experience</h2>
-            <p className="text-body max-w-2xl mx-auto">
-              Practical experience in AI development, cloud operations, and enterprise solutions 
-              across diverse technology stacks and business environments.
-            </p>
           </div>
 
           <div className="space-y-8">
@@ -128,10 +124,6 @@ const Experience = () => {
         <div className="container-custom">
           <div className="text-center mb-16 animate-fade-in-up">
             <h2 className="heading-section mb-4">Education</h2>
-            <p className="text-body max-w-2xl mx-auto">
-              Strong academic foundation in data science, artificial intelligence, 
-              and computer science from prestigious institutions.
-            </p>
           </div>
 
           <div className="space-y-8">

@@ -29,7 +29,7 @@
 
     /* Neutral colors */
     --muted: 210 15% 96%;
-    --muted-foreground: 215 10% 50%;
+    --muted-foreground: 220 15% 25%;
 
     --accent: 205 100% 95%;
     --accent-foreground: 215 85% 35%;
@@ -109,7 +109,7 @@
     --secondary-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted-foreground: 220 15% 15%;
 
     --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;

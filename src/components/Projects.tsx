@@ -44,10 +44,6 @@ const Projects = () => {
       <div className="container-custom">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="heading-section mb-4">Featured Projects</h2>
-          <p className="text-body max-w-2xl mx-auto">
-            A collection of AI and machine learning projects showcasing practical applications 
-            of advanced research in real-world scenarios.
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -117,9 +113,6 @@ const Projects = () => {
         <div id="research" className="mt-24 animate-fade-in-up">
           <div className="text-center mb-12">
             <h3 className="heading-section mb-4">Research Publications</h3>
-            <p className="text-body max-w-2xl mx-auto">
-              Published research contributions in the field of AI, machine learning, and data science.
-            </p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-6">

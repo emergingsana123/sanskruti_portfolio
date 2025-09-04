@@ -95,43 +95,35 @@ const Skills = () => {
         <div className="container-custom">
           <div className="text-center mb-16 animate-fade-in-up">
             <h2 className="heading-section mb-4">Technical Skills</h2>
-            <p className="text-body max-w-2xl mx-auto">
-              Comprehensive technical expertise across the full data science and AI development stack, 
-              from data collection to deployment.
-            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {skillCategories.map((category, index) => (
-              <Card 
-                key={index} 
-                className="card-professional card-hover animate-scale-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <CardHeader>
-                  <CardTitle className="text-lg flex items-center gap-3">
-                    <category.icon className="h-6 w-6 text-primary" />
-                    {category.title}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-4">
-                    {category.skills.map((skill, skillIndex) => (
-                      <div key={skillIndex} className="space-y-2">
-                        <div className="flex justify-between items-center">
-                          <span className="text-sm font-medium text-foreground">
-                            {skill.name}
-                          </span>
-                          <span className="text-xs text-muted-foreground">
-                            {skill.level}%
-                          </span>
-                        </div>
-                        <Progress value={skill.level} className="h-2" />
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+            <Card 
+              key={index} 
+              className="card-professional card-hover animate-scale-in border-2 border-border/80"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              <CardHeader className="border-b border-border/60 pb-4">
+                <CardTitle className="text-lg flex items-center gap-3 font-semibold">
+                  <category.icon className="h-6 w-6 text-primary" strokeWidth={2.5} />
+                  {category.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="pt-4">
+                <div className="flex flex-wrap gap-3">
+                  {category.skills.map((skill, skillIndex) => (
+                    <Badge 
+                      key={skillIndex} 
+                      variant="outline"
+                      className="text-sm px-4 py-2 font-medium bg-card border-2 border-primary/30 text-foreground hover:bg-primary/10 hover:border-primary/50 transition-all duration-200"
+                    >
+                      {skill.name}
+                    </Badge>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
             ))}
           </div>
         </div>
@@ -142,10 +134,6 @@ const Skills = () => {
         <div className="container-custom">
           <div className="text-center mb-16 animate-fade-in-up">
             <h2 className="heading-section mb-4">Achievements & Certifications</h2>
-            <p className="text-body max-w-2xl mx-auto">
-              Recognition for technical excellence and continuous learning in data science, 
-              machine learning, and software development.
-            </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
