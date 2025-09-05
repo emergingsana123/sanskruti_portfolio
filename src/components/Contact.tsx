@@ -20,32 +20,32 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'sanskruti.deshmukh@stonybrook.edu',
-      href: 'mailto:sanskruti.deshmukh@stonybrook.edu'
+      value: 'sanskrutidhana.deshmukh@stonybrook.edu',
+      href: 'mailto:sanskrutidhana.deshmukh@stonybrook.edu'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+1 (631) 406-0240',
+      href: 'tel:+16314060240'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/sanskruti-deshmukh',
-      href: 'https://linkedin.com/in/sanskruti-deshmukh'
+      value: 'linkedin.com/in/sanskruti-d',
+      href: 'https://linkedin.com/in/sanskruti-d'
     },
     {
       icon: Github,
       label: 'GitHub',
       value: 'github.com/sanskruti-deshmukh',
-      href: 'https://github.com/sanskruti-deshmukh'
+      href: 'https://github.com/emergingsana123-deshmukh'
     },
     {
       icon: GraduationCap,
       label: 'Google Scholar',
       value: 'Google Scholar Profile',
-      href: 'https://scholar.google.com/citations?user=XXXXXXX'
+      href: 'https://scholar.google.com/citations?hl=en&authuser=2&user=Rm-gMH4AAAAJ'
     }
   ];
 

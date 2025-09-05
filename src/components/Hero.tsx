@@ -6,16 +6,16 @@ import profileImage from '@/assets/profile.jpg';
 const Hero = () => {
   const highlights = [
     {
-      title: 'MS in Data Science',
-      subtitle: 'Stony Brook University'
+      title: 'Second Winner at Hack-o-Hire',
+      subtitle: 'Barclays India 2024'
     },
     {
       title: 'AI & CloudOps Intern',
-      subtitle: 'Airtel | PowerZoom'
+      subtitle: 'Bharti Airtel Limited(Xtelify)'
     },
     {
-      title: 'Python & ML Expert',
-      subtitle: 'Data Analysis'
+      title: 'Interests',
+      subtitle: 'LLM systems, CV, NLP, Machine Learning'
     }
   ];
 
@@ -37,7 +37,7 @@ const Hero = () => {
                 Software Developer - Data Scientist - AI Researcher
               </p>
               <p className="text-lg font-bold text-foreground">
-                @ Stony Brook University
+                MS in Data Science @ Stony Brook University
               </p>
               <p className="text-xl text-body max-w-2xl mx-auto lg:mx-0">
                 Bridging advanced AI research with practical data-driven innovation.
@@ -46,10 +46,12 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="btn-primary group">
-                <Download className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                Download CV
-              </Button>
+              <a href="/Sanskruti_CV.pdf" download="Sanskruti_CV.pdf">
+                  <Button size="lg" className="btn-primary group">
+                    <Download className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                    Download CV
+                  </Button>
+                </a>
               <Button 
                 size="lg" 
                 variant="outline" 
@@ -64,17 +66,17 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start items-center">
               <Button size="lg" variant="outline" className="p-4 border-2 border-primary/40 hover:border-primary hover:bg-primary/10" asChild>
-                <a href="https://github.com/sanskruti" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/emergingsana123" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="h-7 w-7 text-foreground hover:text-primary transition-colors" strokeWidth={2.8} />
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="p-4 border-2 border-primary/40 hover:border-primary hover:bg-primary/10" asChild>
-                <a href="https://linkedin.com/in/sanskruti-deshmukh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://linkedin.com/in/sanskruti-d" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-7 w-7 text-foreground hover:text-primary transition-colors" strokeWidth={2.8} />
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="p-4 border-2 border-primary/40 hover:border-primary hover:bg-primary/10" asChild>
-                <a href="mailto:sanskruti.deshmukh@stonybrook.edu" aria-label="Email">
+                <a href="mailto:sanskrutidhana.deshmukh@stonybrook.edu" aria-label="Email">
                   <Mail className="h-7 w-7 text-foreground hover:text-primary transition-colors" strokeWidth={2.8} />
                 </a>
               </Button>
