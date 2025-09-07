@@ -135,6 +135,42 @@ const Projects = () => {
 
             <Card className="card-professional card-hover">
               <CardHeader>
+                <CardTitle className="text-lg">Semantic Video Summarization using NLP</CardTitle>
+                <CardDescription>IEEE Conference Publication</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-body mb-4">
+                  Advanced techniques for extracting semantic information from video content 
+                  using natural language processing and computer vision.
+                </p>
+                <Button size="sm" variant="outline" className="btn-secondary">
+                  <FileText className="mr-2 h-4 w-4" />
+                  Read Paper
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="card-professional card-hover">
+              <CardHeader>
+                <CardTitle className="text-lg">Semantic Video Summarization using NLP</CardTitle>
+                <CardDescription>IEEE Conference Publication</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-body mb-4">
+                  Advanced techniques for extracting semantic information from video content 
+                  using natural language processing and computer vision.
+                </p>
+                <Button size="sm" variant="outline" className="btn-secondary">
+                  <FileText className="mr-2 h-4 w-4" />
+                  Read Paper
+                </Button>
+              </CardContent>
+            </Card>
+
+            
+
+            <Card className="card-professional card-hover">
+              <CardHeader>
                 <CardTitle className="text-lg">Hybrid RAG-NLP for Job Recommendations</CardTitle>
                 <CardDescription>IEEE Conference Publication</CardDescription>
               </CardHeader>

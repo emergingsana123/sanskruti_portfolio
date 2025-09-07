@@ -45,7 +45,7 @@ const Experience = () => {
       degree: 'Bachelor of Technology in AI & Data Science',
       institution: 'Vishwakarma Institute of Technology',
       location: 'Pune, India',
-      period: '2020 - 2024',
+      period: '2021 - 2025',
       description: 'Comprehensive program covering artificial intelligence, machine learning, data structures, algorithms, and software development with hands-on project experience.',
       highlights: ['AI/ML Fundamentals', 'Data Structures', 'Software Development', 'Research Projects']
     }

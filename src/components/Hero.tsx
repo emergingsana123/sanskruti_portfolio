@@ -46,7 +46,7 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a href="/Sanskruti_CV.pdf" download="Sanskruti_CV.pdf">
+              <a href="https://drive.google.com/file/d/1Q7hRMCPicuXDVZ8GXwUXPM-vf1RK0p6b/view?usp=drive_link" download="Sanskruti_CV.pdf">
                   <Button size="lg" className="btn-primary group">
                     <Download className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
                     Download CV
